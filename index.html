@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <span>YONGIEE</span>
+            </div>
+            <div class="hamburg" onclick="toggleMenu()">
+                <div class="burger-icon"></div> <!-- Burger Icon -->
+            </div>
+            <div class="cancel" onclick="toggleMenu()">
+                <div class="cancel-icon"><i id = "ekis" class="fa-solid fa-x"></i></div>
+            </div>
+            <div class="links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+                <a href="#projects">Projects</a>
+            </div>
+        </div>
+        <div class="overlay" id="menuOverlay">
+            <div class="overlay-links">
+                <a href="#home" onclick="toggleMenu()">Home</a>
+                <a href="#about" onclick="toggleMenu()">About</a>
+                <a href="#skills" onclick="toggleMenu()">Skills</a>
+                <a href="#contact" onclick="toggleMenu()">Contact</a>
+                <a href="#projects" onclick="toggleMenu()">Contact</a>
+            </div>
+        </div>
+    </nav>
+    
+    
+      
+    <section id = "home">
+        <div class="main-container">
+            <div class="picture" data-aos="zoom-out" data-aos-duration="3000" >
+                    <img src="me1.png" alt="Reload the Page">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">
+                    Hey! Im
+                    <span>Dave</span>
+                </h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">
+                    I'm a 
+                    <span class="typewriter-text"></span>
+                    <label for="typewriter-text">|</label>
+                </div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">Hi, I'm Dave! I pride myself on being a down-to-earth individual who values authenticity and genuine connections. I believe in staying grounded, appreciating the simple joys of life, and approaching every situation with an open mind and heart. Whether it's lending an ear, solving a problem, or just enjoying good company, I aim to keep things real and meaningful.</p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/markdave.rodriguez.14" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1100"><i class="fa-brands fa-facebook" style="color: #b74b4b;"></i></a>
+                    <a href="https://github.com/yongieee" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1100"><i class="fa-brands fa-github-alt" style="color: #b74b4b;"></i></a>
+                    <a href="https://www.instagram.com/" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1100"><i class="fa-brands fa-instagram" style="color: #b74b4b;"></i></a>
+                </div>
+                <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+                    <a href="#about"> <button>Learn More</button></a>
+                   
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+<!--ABOUT SECTION-->
+
+<section class="about" id ="about">
+    <div class="content">
+        <div class="title" data-aos="fade-up" data-aos-duration="1500"><span><br><br>About Me</span></div>
+        <div class="about-details">
+            <div class="left" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                <img src="me_home.png" alt="reload"/>
+            </div>
+            <div class="right">
+                <div class="topic">Playing Games Is my Comfort</div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="300">
+                    When I’m not connecting with others or appreciating the little things, you can usually find me gaming. Whether it’s exploring vast open worlds, strategizing in intense matches, or just kicking back with some casual fun, gaming is my way to unwind and fuel my passion for creativity and challenge. I enjoy discovering new games and diving into their stories or mechanics. Gaming isn’t just a hobby for me; it’s a way to connect with friends and immerse myself in exciting adventures.
+                </p>
+                <div class="button">
+                    <a href="https://drive.google.com/file/d/1ZtO_5k2Q7py7ceveuUKSoQH6uG9DLefB/view?usp=sharing"><button>Download CV</button></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+<!--SKILL SECTION-->
+<section class="skills" id = "skills">
+    <div class="content">
+        <div class="title" data-aos="fade-up" data-aos-duration="1500"><span><br>My Skills</span></div>
+        <div class="skills-details">
+            <div class="text">
+                <div class="topic">
+                A lesson without pain is meaningless
+            </div>
+            <p data-aos="fade-right">The phrase "lesson without pain is meaningless" implies that growth and learning often come through challenges and hardships. It suggests that struggles and difficulties shape us, providing valuable lessons that wouldn't be as impactful if everything came easily. This perspective encourages resilience and seeing pain as a teacher rather than just a burden.</p>
+            <div class="experience">
+                <div class="num">2</div>
+                <div class="exp">
+                    Years Of <br>
+                    Experience
+                </div>
+            </div>
+        </div>
+        <div class="boxes">
+            <div class="box">
+                <div class="topic">HTML</div>
+                <div class="per">40%</div>
+            </div>
+            <div class="box">
+                <div class="topic">CSS</div>
+                <div class="per">20%</div>
+            </div>
+            <div class="box">
+                <div class="topic">Python</div>
+                <div class="per">45%</div>
+            </div>
+            <div class="box">
+                <div class="topic">JavaScript</div>
+                <div class="per">10%</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!--Contact Section-->
+<section class="contact" id="contact">
+    <div class="content">
+        <div class="title" data-aos="fade-up" data-aos-duration="1500">
+            <span><br><br>Contact Me</span>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <p>+09950992082</p>
+                </div>
+                <div class="info-item">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <a href="https://mail.google.com/mail/u/0/#inbox">
+                        <p>mark1421@gmail.com</p>
+                    </a>
+                </div>
+                <div class="info-item">
+                    <i class="fa fa-map-marker-alt" aria-hidden="true"></i>
+                    <a href="https://www.google.com.ph/maps">
+                        <p> Lucena City, Quezon</p>
+                    </a>
+                </div>
+                <div class="info-item">
+                    <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+                    <a href=""> 
+                        <p>Facebook</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="projects-section" id = projects>
+    <h1 class="section-title" data-aos="fade-up" data-aos-duration="1500"> <span><br>My Projects</span></h1>
+    <div class="projects-container">
+        <div class="project-card">
+            <h2 class="project-title">Lustrio Coffee Shop</h2>
+            <p class="project-description">
+                Lustrio Coffee Shop is a cozy yet chic haven adorned with pastel hues, gold accents, and floral decor, offering aesthetic lattes, artisanal pastries, and a dreamy ambiance perfect for unwinding or capturing Instagram-worthy moments.</p>
+            <a href="https://www.figma.com/proto/Sv5ToVQ8Fr5mVxExQv8Qu3/GROUP-3?node-id=0-1&t=tDpFUXDW7K9mEYlD-1" class="project-link">View Project</a>
+        </div>
+        <div class="project-card">
+            <h2 class="project-title">Enrollment Form</h2>
+            <p class="project-description">The enrollment form is a streamlined, user-friendly interface that collects essential information such as personal details, contact information, and course preferences, with clear instructions and a submit button for easy enrollment.</p>
+            <a href="https://yongieee.github.io/Rodriguez_Student_Enrollment/" class="project-link">View Project</a>
+        </div>
+        <div class="project-card">
+            <h2 class="project-title">Figma Lustrio</h2>
+            <p class="project-description">Lustrio Coffee Shop is a whimsical yet elegant space where modern design meets cozy charm. The interior features soft pastel colors, with lavender and blush pink walls, and sleek marble counters.</p>
+            <a href="#" class="project-link">View Project</a>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Footer Section-->
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-logo">
+            <span>Yong</span>
+        </div>
+        <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-social">
+            <a href="https://www.facebook.com/markdave.rodriguez.14"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://github.com/yongieee"><i class="fa-brands fa-github-alt"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="footer-text">
+            <span>&copy; 2024 Created by <a href="https://www.facebook.com/markdave.rodriguez.14">Yongiee</a>. All Rights Reserved.</span>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({offset:0});
+</script>
+
+
+
+<script>
+    const typewriterText = document.querySelector('.typewriter-text');
+    const words = ["Web Developer", "Gamer", "Artist"]; // Array of words to cycle through
+    let wordIndex = 0;
+    let charIndex = 0;
+
+    function typewriter() {
+    const currentWord = words[wordIndex];
+
+    if (charIndex < currentWord.length) {
+        typewriterText.textContent += currentWord.charAt(charIndex);
+        charIndex++;
+        setTimeout(typewriter, 50); // Adjust speed here
+    } else {
+        // Wait for a brief pause before deleting the word
+        setTimeout(() => {
+        typewriterText.textContent = '';
+        charIndex = 0;
+        wordIndex = (wordIndex + 1) % words.length;
+        typewriter();
+        }, 1000); // Adjust pause duration here
+    }
+    }
+
+    typewriter();
+</script>
+
+
+
+
+
+<!--burger menu-->
+<script>
+function toggleMenu() {
+    const overlay = document.getElementById('menuOverlay');
+    const cancelButton = document.querySelector('.cancel');
+    const burgerIcon = document.querySelector('.burger-icon');
+    
+    overlay.classList.toggle('show');  // Toggle menu visibility
+    cancelButton.classList.toggle('show'); // Toggle X button visibility
+    burgerIcon.classList.toggle('show'); // Optionally hide hamburger lines if needed
+}
+
+</script>
+
+
+
+</body>
+</html>
